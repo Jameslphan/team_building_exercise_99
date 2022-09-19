@@ -1,0 +1,65 @@
+* {
+    font-family: 'Caveat';
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color:rgb(157, 179, 222);
+    height: 100%;
+    color: #f2f0dc;
+}
+
+.jumbotron {
+    background: #5258c4;
+}
+
+.employee {
+    box-shadow: 5px 3px 9px 1px #736946;
+}
+
+/*different header color for each employee type*/
+.manager-head {
+    background: rgb(225, 102, 89)
+}
+
+.engineer-head {
+    background: #3ec270;
+}
+
+.intern-head {
+    background: #bb6dd5;
+}
+
+.card-body {
+    color: #6f643b;
+}
+
+a {
+    color: #BF7636;
+}
+
+.card:hover {
+    box-shadow: 5px 3px 9px 1px #736946;
+	transform: scale(1.5);
+    transition: all 0.9s ease;
+}
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
